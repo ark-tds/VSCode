@@ -7,6 +7,27 @@
 
 https://code.visualstudio.com/docs/setup/mac
 
+## Settings
+
+```json
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.tabSize": 2,
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "on",
+    "terminal.external.osxExec": "iTerm.app",
+    "window.restoreWindows": "all",
+    "window.title": "${activeEditorLong}",
+    "workbench.startupEditor": "newUntitledFile",
+}
+
+```
+
 ## Extensions
 
 ```sh
