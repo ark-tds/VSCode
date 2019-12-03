@@ -10,22 +10,68 @@ https://code.visualstudio.com/docs/setup/mac
 ## Settings
 
 ```json
-// 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.emptyRules": "ignore",
+    "css.lint.unknownVendorSpecificProperties": "warning",
+    "css.lint.zeroUnits": "warning",
+    "csscomb.preset": "~/csscomb.json",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.colorDecorators": false,
     "editor.fontSize": 16,
-    "editor.minimap.enabled": true,
-    "editor.renderWhitespace": "all",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
-    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "all",
+    "editor.showFoldingControls": "always",
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
     "editor.tabSize": 2,
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.wordWrap": "on",
+    "emmet.includeLanguages": {
+        "ejs": "html",
+        "vue-html": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.syntaxProfiles": {
+        "scss": {
+            "attr_quotes": "single"
+        }
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "files.associations": {
+        "*.sass": "scss"
+    },
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.defaultDateStyle": "absolute",
+    "npm.enableScriptExplorer": true,
+    "oneDarkPro.bold": true,
+    "php.suggest.basic": false,
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.unknownVendorSpecificProperties": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontSize": 16,
+    "scss.lint.emptyRules": "ignore",
+    "scss.lint.universalSelector": "warning",
     "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.scrollback": 10000,
     "window.restoreWindows": "all",
-    "window.title": "${activeEditorLong}",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.iconTheme": "file-icons",
     "workbench.startupEditor": "newUntitledFile",
 }
-
 ```
 
 ## Extensions
