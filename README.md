@@ -87,6 +87,7 @@ code --install-extension be5invis.vscode-custom-css
 code --install-extension bradgashler.htmltagwrap
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DigitalBrainstem.javascript-ejs-support
+code --install-extension dzhavat.css-initial-value
 code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.vscode-npm-script
@@ -96,12 +97,14 @@ code --install-extension file-icons.file-icons
 code --install-extension henoc.svgeditor
 code --install-extension imperez.smarty
 code --install-extension mechatroner.rainbow-csv
+code --install-extension mkaufman.HTMLHint
 code --install-extension monokai.theme-monokai-pro-vscode
 code --install-extension mosapride.zenkaku
 code --install-extension mrmlnc.vscode-apache
 code --install-extension mrmlnc.vscode-csscomb
 code --install-extension mrmlnc.vscode-scss
 code --install-extension MS-CEINTL.vscode-language-pack-ja
+code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension naumovs.color-highlight
 code --install-extension oderwat.indent-rainbow
 code --install-extension ohansemmanuel.css-grid-snippets
