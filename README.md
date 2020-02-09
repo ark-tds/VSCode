@@ -110,7 +110,6 @@ code --install-extension oderwat.indent-rainbow
 code --install-extension ohansemmanuel.css-grid-snippets
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension shardulm94.trailing-spaces
-code --install-extension shyykoserhiy.vscode-spotify
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension wix.vscode-import-cost
 code --install-extension wordpresstoolbox.wordpress-toolbox
