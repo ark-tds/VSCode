@@ -11,6 +11,7 @@ https://code.visualstudio.com/docs/setup/mac
 
 ```json
 {
+    "breadcrumbs.enabled": false,
     "css.lint.duplicateProperties": "warning",
     "css.lint.emptyRules": "ignore",
     "css.lint.unknownVendorSpecificProperties": "warning",
