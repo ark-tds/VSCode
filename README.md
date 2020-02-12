@@ -48,6 +48,7 @@ https://code.visualstudio.com/docs/setup/mac
         "*.sass": "scss"
     },
     "files.autoGuessEncoding": true,
+    "files.defaultLanguage": "${activeEditorLanguage}",
     "files.insertFinalNewline": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateStyle": "absolute",
