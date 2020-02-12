@@ -64,7 +64,6 @@ https://code.visualstudio.com/docs/setup/mac
     "scss.lint.universalSelector": "warning",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.scrollback": 10000,
-    "window.restoreWindows": "all",
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Atom One Dark",
