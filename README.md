@@ -53,6 +53,7 @@ https://code.visualstudio.com/docs/setup/mac
     "files.insertFinalNewline": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateStyle": "absolute",
+    "html.autoClosingTags": false,
     "html.mirrorCursorOnMatchingTag": true,
     "npm.enableScriptExplorer": true,
     "oneDarkPro.bold": true,
