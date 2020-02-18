@@ -86,7 +86,9 @@ code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.project-manager
 code --install-extension auchenberg.vscode-browser-preview
 code --install-extension be5invis.vscode-custom-css
+code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension bradgashler.htmltagwrap
+code --install-extension dakshmiglani.hex-to-rgba
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension DigitalBrainstem.javascript-ejs-support
 code --install-extension dzhavat.css-initial-value
@@ -94,7 +96,6 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
-code --install-extension felixfbecker.php-intellisense
 code --install-extension file-icons.file-icons
 code --install-extension henoc.svgeditor
 code --install-extension imperez.smarty
@@ -115,7 +116,8 @@ code --install-extension shardulm94.trailing-spaces
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension wix.vscode-import-cost
 code --install-extension wordpresstoolbox.wordpress-toolbox
+code --install-extension yusukehirao.vscode-markuplint
 code --install-extension yzhang.markdown-all-in-one
-code --install-extension zhuangtongfa.Material-theme
+code --install-extension zhuangtongfa.material-theme
 code --install-extension Zignd.html-css-class-completion
 ```
