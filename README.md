@@ -24,6 +24,7 @@ https://code.visualstudio.com/docs/setup/mac
     "editor.minimap.showSlider": "always",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "all",
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
