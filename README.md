@@ -98,6 +98,7 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.vscode-npm-script
 code --install-extension esbenp.prettier-vscode
+code --install-extension felixfbecker.php-intellisense
 code --install-extension file-icons.file-icons
 code --install-extension henoc.svgeditor
 code --install-extension imperez.smarty
@@ -123,3 +124,5 @@ code --install-extension yzhang.markdown-all-in-one
 code --install-extension zhuangtongfa.material-theme
 code --install-extension Zignd.html-css-class-completion
 ```
+
+PHP Intellisense のインストール後、VSCode にプリインストールされている PHP Language Features を無効にする
