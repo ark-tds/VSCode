@@ -10,19 +10,36 @@ https://code.visualstudio.com/docs/setup/mac
 ## Settings
 
 ```json
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
     "breadcrumbs.enabled": false,
+    // https://www.jenniferkonikowski.com/
+    "bracket-pair-colorizer-2.colors": [
+        "LightSkyBlue",
+        // "DodgerBlue",
+        "MediumSlateBlue",
+        // "BlueViolet",
+        "MediumVioletRed",
+        "DeepPink",
+        // "Red",
+        // "DarkOrange",
+        "Gold",
+        // "GreenYellow",
+        "LimeGreen",
+        // "LightSeaGreen",
+        "DarkTurquoise"
+    ],
     "css.lint.duplicateProperties": "warning",
     "css.lint.emptyRules": "ignore",
     "css.lint.unknownVendorSpecificProperties": "warning",
     "css.lint.zeroUnits": "warning",
     "csscomb.preset": "~/csscomb.json",
-    "diffEditor.ignoreTrimWhitespace": true,
     "editor.colorDecorators": false,
     "editor.fontSize": 16,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
     "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renameOnType": true,
     "editor.renderControlCharacters": true,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "all",
@@ -47,7 +64,8 @@ https://code.visualstudio.com/docs/setup/mac
         "lang": "ja"
     },
     "files.associations": {
-        "*.sass": "scss"
+        "*.sass": "scss",
+        "*.ejs": "html"
     },
     "files.autoGuessEncoding": true,
     "files.defaultLanguage": "${activeEditorLanguage}",
@@ -55,8 +73,6 @@ https://code.visualstudio.com/docs/setup/mac
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateStyle": "absolute",
     "html.autoClosingTags": false,
-    "html.mirrorCursorOnMatchingTag": true,
-    "npm.enableScriptExplorer": true,
     "oneDarkPro.bold": true,
     "php.suggest.basic": false,
     "scss.lint.duplicateProperties": "warning",
@@ -75,6 +91,15 @@ https://code.visualstudio.com/docs/setup/mac
     "workbench.editor.closeEmptyGroups": false,
     "workbench.iconTheme": "file-icons",
     "workbench.startupEditor": "newUntitledFile",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
 }
 ```
 
